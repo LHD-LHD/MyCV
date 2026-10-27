@@ -225,6 +225,7 @@ h1{font-size:clamp(48px,3.35vw,58px);line-height:1.07}
 .publication-source:hover{color:var(--accent)}
 .honor p{display:flex;align-items:flex-start;gap:8px}
 .honor p::before{content:"🏆";flex:0 0 auto;font-family:"Segoe UI Emoji","Apple Color Emoji",sans-serif;font-size:11px;line-height:1.55}
+.project-body strong{color:var(--ink);font-weight:700}
 
 @media(max-width:580px){
   .section-title span{font-size:15px}
