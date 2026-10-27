@@ -229,3 +229,39 @@ h1{font-size:clamp(48px,3.35vw,58px);line-height:1.07}
 @media(max-width:580px){
   .section-title span{font-size:15px}
 }
+
+/* Closing invitation */
+.closing-note{padding-top:38px;padding-bottom:44px;border-top:1px solid var(--line)}
+.closing-note-inner{max-width:820px}
+.closing-note .kicker{margin-bottom:7px}
+.closing-note h2{margin:0 0 10px;font-size:28px;font-weight:500;letter-spacing:-.015em}
+.closing-note p:last-child{margin:0;color:var(--muted);font-family:Georgia,"Times New Roman",serif;font-size:15px;line-height:1.55}
+
+/* Larger but still bounded presentation on wide and high-resolution displays */
+@media(min-width:1440px){
+  :root{--max:1360px}
+  body{font-size:18px}
+  .site-name{font-size:22px}
+  nav a{font-size:14px}
+  .profile{grid-template-columns:minmax(0,1fr) 260px;gap:56px;padding-top:52px;padding-bottom:52px}
+  h1{font-size:64px}
+  .role{font-size:19px}
+  .kicker{font-size:11px}
+  .profile-copy{max-width:850px;font-size:18px;line-height:1.58}
+  .profile-photo{max-width:224px}
+  .profile-aside dd,.project-meta span{font-size:14px}
+  .section-title h2{font-size:32px}
+  .section-title span{font-size:19px}
+  .entry h3,.project-body h3{font-size:22px}
+  .entry p,.project-body p,.project-body li,.honor p{font-size:16px}
+  .publication-list li{font-size:16px;line-height:1.48}
+  .entry-date,.honor time,.project-meta time{font-size:14px}
+  .closing-note h2{font-size:30px}
+  .closing-note p:last-child{font-size:17px}
+}
+
+@media(max-width:580px){
+  .closing-note{padding-top:30px;padding-bottom:34px}
+  .closing-note h2{font-size:25px}
+  .closing-note p:last-child{font-size:14px}
+}
