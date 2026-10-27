@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title">
-  <title id="title">NIMO Labs</title>
-  <rect width="48" height="48" rx="10" fill="#0b2f2a"/>
-  <path d="M12 34V14h5.5L30 28V14h6v20h-5.4L18 20v14z" fill="#83e5c5"/>
-  <circle cx="37" cy="11" r="3" fill="#d5fff1"/>
-</svg>

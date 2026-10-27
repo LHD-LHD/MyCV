@@ -95,12 +95,6 @@ body{font-size:clamp(15px,.82vw,17px)}
 .honor p{font-size:clamp(13px,.74vw,15px)}
 .project-body p,.project-body li{font-size:clamp(13px,.74vw,15px)}
 .project-meta span,.profile-aside dd{font-size:clamp(12px,.68vw,14px)}
-.icon-link,.institution-line{display:inline-flex;align-items:center;gap:7px}
-.icon-link img,.institution-line img{width:21px;height:21px;flex:0 0 auto;border-radius:5px}
-.compact-icon-link{gap:5px}
-.compact-icon-link img{width:17px;height:17px;border-radius:4px}
-.institution-line a{color:var(--ink);text-decoration:none}
-.institution-line a:hover{text-decoration:underline}
 
 @media(min-width:1440px){
   .site-header{min-height:62px}
@@ -121,7 +115,6 @@ body{font-size:clamp(15px,.82vw,17px)}
 }
 @media(max-width:580px){
   :root{--max:100%}
-  .icon-link img,.institution-line img{width:19px;height:19px}
 }
 
 /* Compact CV refinement */
@@ -181,4 +174,28 @@ footer{min-height:70px}
   :root{--max:1640px}
   .profile{grid-template-columns:minmax(0,1fr) 280px;gap:64px}
   .profile-photo{max-width:228px}
+}
+
+/* Balanced typography */
+body{font-size:clamp(15px,.82vw,17px)}
+.site-name{font-size:clamp(18px,1vw,20px)}
+nav a{font-size:clamp(12px,.7vw,13px)}
+h1{font-size:clamp(48px,3.35vw,58px);line-height:1.07}
+.role{font-size:clamp(16px,.92vw,18px)}
+.kicker{font-size:10.5px}
+.profile-copy{font-size:clamp(15px,.84vw,17px)}
+.section-title h2{font-size:clamp(27px,1.55vw,30px)}
+.entry h3,.project-body h3{font-size:clamp(19px,1.05vw,21px)}
+.entry p,.project-body p,.project-body li,.honor p{font-size:clamp(14px,.75vw,15px)}
+.publication-list li{font-size:clamp(14px,.78vw,16px)}
+.project-meta span,.profile-aside dd{font-size:clamp(13px,.68vw,14px)}
+
+@media(max-width:580px){
+  body{font-size:15px}
+  h1{font-size:40px}
+  .role{font-size:16px}
+  .profile-copy{font-size:15px}
+  .section-title h2{font-size:26px}
+  .entry h3,.project-body h3{font-size:19px}
+  .entry p,.project-body p,.project-body li,.honor p,.publication-list li{font-size:14px}
 }
