@@ -199,3 +199,10 @@ h1{font-size:clamp(48px,3.35vw,58px);line-height:1.07}
   .entry h3,.project-body h3{font-size:19px}
   .entry p,.project-body p,.project-body li,.honor p,.publication-list li{font-size:14px}
 }
+
+/* Stable reading width and compact contact links */
+:root{--max:1180px}
+.contact-links{display:grid;gap:4px}
+.contact-link{display:inline-flex;align-items:center;gap:7px;width:max-content;max-width:100%;white-space:nowrap}
+.contact-link svg{width:13px;height:13px;flex:0 0 13px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.contact-link:last-child svg{fill:currentColor;stroke:none}
